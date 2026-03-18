@@ -13,11 +13,7 @@ const About = () => {
 
         <div className="about-right">
           <p>
-            At C. Patel, we are passionate about providing cutting-edge
-            technology solutions. Our focus on quality and performance ensures
-            that our customers receive the best products tailored to their
-            needs. From custom rigs to exclusive collaborations, we strive to
-            elevate your tech experience.
+            Welcome to our store—your trusted destination for CCTV installation and repair, mobile phone repairing and accessories, and laptop repair and accessories. We are committed to delivering reliable technology services and high-quality products that help individuals, families, and businesses stay connected, productive, and secure.
           </p>
 
           <button className="vision-btn">Our Vision</button>

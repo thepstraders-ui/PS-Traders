@@ -6,23 +6,32 @@ const About = () => {
     <>
       <section className="about">
         <div className="about-container">
-
           <div className="about-left">
             <h2>Discover Our Story</h2>
 
             <p>
-              At C. Patel, we are passionate about providing cutting-edge
-              technology products to both gamers and professionals.
+              Welcome to our store—your trusted destination for CCTV
+              installation and repair, mobile phone repairing and accessories,
+              and laptop repair and accessories. We are committed to delivering
+              reliable technology services and high-quality products that help
+              individuals, families, and businesses stay connected, productive,
+              and secure.
             </p>
 
             <p>
-              Our custom-built rigs, components, and peripherals are designed
-              for optimal performance and quality.
+              In today’s digital world, devices like smartphones, laptops, and
+              security systems are essential. When they stop working or need
+              installation, it can disrupt daily life. That’s why we focus on
+              providing fast, professional, and affordable solutions to get your
+              devices back up and running smoothly.
             </p>
 
             <p>
-              We also offer tutorials, tech advice, and consultations to help
-              customers build their ideal systems.
+              Our shop was founded with a vision to offer complete technology
+              solutions under one roof. With skilled technicians and modern
+              tools, we ensure dependable repair services and installation
+              support across a wide range of devices. We prioritize quality,
+              transparency, and customer satisfaction in everything we do.
             </p>
 
             <img
@@ -38,10 +47,8 @@ const About = () => {
               alt="pc build"
             />
           </div>
-
         </div>
       </section>
-
 
       {/* Mission Section */}
 
