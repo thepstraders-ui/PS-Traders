@@ -11,26 +11,22 @@ const Services = () => {
 
         <div className="service">
           <hr />
-          <h3>Customization</h3>
-          <p>Build your dream PC with tailored components</p>
+          <h3>CCTV Installation & Repair</h3>
         </div>
 
         <div className="service">
           <hr />
-          <h3>Upgrades</h3>
-          <p>Enhance performance with the latest hardware</p>
+          <h3>Mobile Repairing</h3>
         </div>
 
         <div className="service">
           <hr />
-          <h3>Support</h3>
-          <p>Expert tech advice and troubleshooting assistance</p>
+          <h3>Mobile & Laptop Accessories</h3>
         </div>
 
         <div className="service">
           <hr />
-          <h3>Showcase</h3>
-          <p>Exclusive gaming rig designs and setups</p>
+          <h3>Laptop Repairing</h3>
         </div>
 
       </div>

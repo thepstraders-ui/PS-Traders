@@ -37,11 +37,14 @@ function Services() {
             03
             <CiLocationArrow1 size={30} className="services-item-arrow" />
           </div>
-          <div className="services-item-title">Mobile Accessories</div>
+          <div className="services-item-title">Mobile & Laptop Accessories</div>
           <p>
-            We offer a wide range of accessories such as mobile covers, tempered
-            glass, chargers, cables, earphones, power banks, and memory cards,
-            ensuring durability and value.
+            We offer a wide range of high-quality accessories for both mobile
+            phones and laptops, including mobile covers, tempered glass,
+            chargers, cables, earphones, power banks, and memory cards. For
+            laptops, we provide essentials like bags, cooling pads, chargers,
+            and external keyboards to enhance performance, protection, and
+            usability.
           </p>
         </div>
         <div className="services-item">
@@ -54,18 +57,6 @@ function Services() {
             Our laptop services include screen replacement, keyboard repair,
             battery replacement, overheating fixes, OS installation, virus
             removal, and data recovery.
-          </p>
-        </div>
-        <div className="services-item">
-          <div className="services-item-header">
-            05
-            <CiLocationArrow1 size={30} className="services-item-arrow" />
-          </div>
-          <div className="services-item-title">Laptop Accessories</div>
-          <p>
-            We provide essential accessories like laptop bags, cooling pads,
-            chargers, and external keyboards to enhance your device performance
-            and usability.
           </p>
         </div>
       </div>
