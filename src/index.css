@@ -1,0 +1,17 @@
+body{
+    color: rgb(0, 0, 0);padding: 0;margin: 0;
+}
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* IE / Edge (old) */
+body {
+  -ms-overflow-style: none;
+}

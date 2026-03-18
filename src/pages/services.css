@@ -1,0 +1,84 @@
+/* services.css */
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+  font-family:'Madefor Text', sans-serif;
+    color: rgb(0, 0, 0);background-color: #fafafa;
+    z-index: 1;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns in grid */
+    gap: 60px;
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.services-item {
+    transition: transform 0.3s;
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.services-item:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.services-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bebas Neue';
+    font-size: 24px; /* Adjust font size */
+}
+
+.services-item-title {
+    font-size: 18px; /* Adjust font size */
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    /* text-shadow: 0 0 0px rgba(0, 248, 248, 0.7), 0 0 10px rgba(72, 229, 229, 0.836), 0 0 15px rgba(0, 248, 248, 0.3);
+*/
+}
+
+.services-item p {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Arrow styling */
+.services-item-arrow {
+    width: 30px; /* Adjust size */
+    height: 30px; /* Adjust size */
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.services-item:hover .services-item-arrow {
+    color: cyan;
+    transform: rotate(90deg);
+    transition: 2s;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+        width: 90%;
+    }
+    .services-item-header {
+        font-size: 22px; /* Adjust font size */
+    }
+    .services-item-title {
+        font-size: 16px; /* Adjust font size */
+    }
+    .services-item-arrow {
+        width: 20px; /* Adjust size */
+        height: 20px; /* Adjust size */
+    }
+}

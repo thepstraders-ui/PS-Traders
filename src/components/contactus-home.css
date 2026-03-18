@@ -1,0 +1,53 @@
+.contact{
+  padding:100px 60px;
+  font-family:'Madefor Text', sans-serif;background-color: #fafafa;
+}
+
+.contact-header h2{
+  font-size:70px;
+}
+
+.subtitle{
+  margin-top:10px;
+  font-size:18px;
+}
+
+.contact-container{
+  display:flex;
+  gap:60px;
+  margin-top:40px;
+}
+
+.contact-form{
+  flex:2;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.row{
+  display:flex;
+  gap:20px;
+}
+
+input, textarea{
+  width:100%;
+  padding:14px;
+  border:1px solid #ddd;
+  font-size:16px;
+}
+
+button{
+  width:150px;
+  padding:14px;
+  background:black;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+.contact-info{
+  flex:1;
+  font-size:16px;
+  line-height:1.6;
+}

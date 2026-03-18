@@ -1,0 +1,40 @@
+@import url('https://fonts.cdnfonts.com/css/madefor-text');
+
+.site-header{
+  width:calc(100vw - 80px);
+  padding:15px 45px 15px 35px;
+  font-family: 'Madefor Text', sans-serif;background-color: #fafafa;
+    color: rgb(0, 0, 0);
+  position: fixed;top:0;z-index: 9999;
+}
+
+.container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo-text{
+  font-size:17px;
+  font-weight:400;
+}
+
+.menu{
+  display:flex;
+  gap:30px;
+}
+
+.menu-item{
+  font-weight:500;
+  font-size:16px;
+  cursor: pointer;
+}
+
+.actions{
+  display:flex;
+  gap:15px;
+}
+
+.login-btn{
+  cursor:pointer;
+}
