@@ -7,11 +7,11 @@ function Hero() {
   const navigate = useNavigate();
 
   const images = [
-    "https://static.wixstatic.com/media/88aac0_a2987ba349d14bfa9a7f3599ddbb1806~mv2.png",
-    "https://static.wixstatic.com/media/88aac0_a2987ba349d14bfa9a7f3599ddbb1806~mv2.png",
-    "https://static.wixstatic.com/media/88aac0_a2987ba349d14bfa9a7f3599ddbb1806~mv2.png",
-    "https://static.wixstatic.com/media/88aac0_a2987ba349d14bfa9a7f3599ddbb1806~mv2.png",
-    "https://static.wixstatic.com/media/88aac0_f098d2f9382249c39529ca3d9964512a~mv2.png",
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/r/p/w/-original-imahg5fxzmyzbkv8.jpeg?q=70",
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/o/v/3/-original-imahfkh32rjbqrhj.jpeg?q=70",
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/f/u/b/-original-imahf69gy4qegrya.jpeg?q=70",
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/c/j/s/-original-imahk7hhynx2zpdh.jpeg?q=70",
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/y/l/z/-original-imahgfdygxgqfwym.jpeg?q=70",
   ];
 
   const [index, setIndex] = useState(0);

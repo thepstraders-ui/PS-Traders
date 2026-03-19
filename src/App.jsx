@@ -6,7 +6,7 @@ import FooterHome from './components/footer-home.jsx'
 import Home from "./pages/home";
 import About from "./pages/about";
 import Service from "./pages/services.jsx";
-// import Contact from "./pages/contact";
+import Product from "./pages/product.jsx";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/product" element={<Product />} />
       </Routes>
       
         <FooterHome/>

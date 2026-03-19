@@ -19,7 +19,7 @@ function Header() {
             Home
           </div>
 
-          <div className="menu-item" onClick={() => navigate("/shop")}>
+          <div className="menu-item" onClick={() => navigate("/product")}>
             Products
           </div>
           
