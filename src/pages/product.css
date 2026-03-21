@@ -41,7 +41,7 @@
   width: 100%;
   display: flex;justify-content: center;align-items: center;
   background-color: #17153B;flex-direction: column;
-  min-height: 70vh;
+  padding-top: 90px;
 }
 .service-page-content {
   width: 100vw;
@@ -338,4 +338,22 @@
   color: #999;
   padding: 60px 20px;
   font-size: 16px;
+}
+
+
+
+
+
+
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+  .profuct-page-heading {
+    background-color: #65d4f0;
+    font-size: 19px;
+  }
+  .profuct-page-page-title-div{
+  padding-top: 50px;
+}
+
 }

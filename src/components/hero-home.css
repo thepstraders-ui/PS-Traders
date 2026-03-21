@@ -3,7 +3,6 @@
   text-align: center;
   background-color: none;
   overflow: hidden;
-  min-height: 100vh;
   background-color:#17153B;
   margin-top: 24px;
 }
@@ -250,6 +249,11 @@ color: black;
   right: 10px;
 }
 
+
+
+
+
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
   .hero {
@@ -279,7 +283,7 @@ color: black;
 
 @media (max-width: 768px) {
   .hero {
-    padding: 80px 20px 50px;
+    padding: 1000px 20px 50px;
   }
 
   .hero-content {
@@ -335,13 +339,35 @@ color: black;
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 480px) {
   .hero {
-    padding: 60px 15px 40px;
+    padding: 120px 15px 40px;
   }
 
   .hero-title {
-    font-size: clamp(24px, 5vw, 36px);
+    font-size: clamp(40px, 5vw, 36px);
   }
 
   .hero-desc {

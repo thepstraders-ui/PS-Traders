@@ -42,9 +42,9 @@ function Header() {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
-              <MdClose size={24} />
+              <MdClose size={28} />
             ) : (
-              <GiHamburgerMenu size={24} />
+              <GiHamburgerMenu size={28} />
             )}
           </div>
         </div>

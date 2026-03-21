@@ -2,7 +2,6 @@
 .services {
   display: flex;
   justify-content: center;
-  min-height: calc(100vh - 70px);
   font-family: 'Madefor Text', sans-serif;
   color: rgb(0, 0, 0);
   z-index: 1;
@@ -39,7 +38,7 @@
   width: 100%;
   display: flex;justify-content: center;align-items: center;
   background-color: #17153B;flex-direction: column;
-  min-height: 70vh;
+  padding-top: 30px;padding-bottom: 50px;
 }
 .service-page-content {
   width: 100vw;

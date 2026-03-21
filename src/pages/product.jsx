@@ -232,7 +232,7 @@ function Product() {
   return (
     <div className="profuct-page-container">
       <div className="profuct-page-page-title-div">
-        <h1 className="profuct-page-heading">Products</h1>
+        <h1 className="profuct-page-heading">Explore Our Products</h1>
         <p className="profuct-page-subtitle">Browse our collection of electronics</p>
       </div>
       {/* Filter Buttons */}

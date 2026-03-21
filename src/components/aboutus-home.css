@@ -142,7 +142,7 @@
 /* MOBILE */
 @media (max-width: 768px) {
   .about-home-section {
-    padding: 60px 25px;
+    padding: 60px 25px;background-color: #DA0C81;
   }
 
   .about-home-container {
@@ -169,10 +169,13 @@
   }
 }
 
+
+
 /* SMALL MOBILE */
 @media (max-width: 480px) {
   .about-home-section {
-    padding: 50px 20px;
+    margin-top: 0;
+    padding: 50px 20px;background-color: white;
   }
 
   .about-home-left h2 {

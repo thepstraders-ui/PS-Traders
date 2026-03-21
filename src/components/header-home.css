@@ -155,12 +155,13 @@
 /* Mobile Menu Styles */
 @media (max-width: 768px) {
   .site-header {
-    padding: 12px 15px;background-color: #17153B;
+    padding: 18px 15px;background-color: #17153B;
   }
 
   .container {
-    padding: 0 15px;
+    padding: 10px 15px;
   background-color: #17153B;
+
   }
 
   .logo-text {
@@ -222,13 +223,13 @@
   }
 
   .container {
-    padding: 0 10px;
+    padding: 11px 10px;
     
   background-color: #17153B;
   }
 
   .logo-text {
-    font-size: 16px;
+    font-size: 23px;
   }
 
   .menu-item {
