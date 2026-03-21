@@ -115,6 +115,39 @@ function Product() {
   );
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const styles = {
   container: {
     padding: "40px 20px",

@@ -1,7 +1,6 @@
 .footer {
-  padding: 60px 40px 30px;
-  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-  color: #f0f0f0;
+  padding: 60px 40px 30px; background-color: #17153B;
+  color: #f0f0f0;border-top: 1px solid white;
   font-family: 'Madefor Text', 'Arial', sans-serif;
 }
 

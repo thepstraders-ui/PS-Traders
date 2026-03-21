@@ -1,5 +1,5 @@
 import React from "react";
-// import "./about.css";
+import "./about.css";
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <section className="about">
         <div className="about-container">
           <div className="about-left">
-            <h2>Discover Our Story</h2>
+            <h2>Here, We Go :</h2>
 
             <p>
               Welcome to our store—your trusted destination for CCTV
@@ -49,31 +49,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      {/* Mission Section */}
-
-      {/* <section className="mission">
-
-        <h2>Mission</h2>
-        <h4>Empowering Technology Enthusiasts</h4>
-
-        <p>
-          Our mission at C. Patel is to provide high-performance processors,
-          graphics cards, and custom-built rigs to enhance gaming and
-          professional experiences.
-        </p>
-
-        <p>
-          Driven by innovation and performance, we aim to create a seamless
-          experience for technology enthusiasts while delivering exceptional
-          customer service.
-        </p>
-
-        <button className="products-btn">
-          Our Products
-        </button>
-
-      </section> */}
     </>
   );
 };

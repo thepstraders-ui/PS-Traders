@@ -6,6 +6,18 @@ import { CiLocationArrow1 } from "react-icons/ci";
 function Services() {
   return (
     <div className="services">
+      <div className="hero-page-title-top">
+        <h1 className="service-page-title">Our Services</h1>
+        <p className="service-page-desc">
+          We provide excellent service for mobile phones and laptops, handling
+          everything from screen replacements to hardware repairs. Our skilled
+          technicians deliver fast, reliable solutions with competitive pricing.
+          Whether it's a cracked screen, battery issues, or software problems,
+          we fix it right the first time. Trust us for quality repairs you can
+          depend on.
+        </p>
+      </div>
+
       <div className="services-grid">
         <div className="services-item">
           <div className="services-item-header">

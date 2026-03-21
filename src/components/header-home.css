@@ -9,7 +9,6 @@
   position: fixed;
   top: 0;
   z-index: 9999;
-  border-bottom: 1px solid #e0e0e0;
 }
 
 .container {
@@ -162,7 +161,6 @@
     flex-direction: column;
     gap: 0;
     background-color: #ffffff;
-    border-bottom: 1px solid #e0e0e0;
     overflow: hidden;
     transition: height 0.3s ease;
     padding: 0;
@@ -177,7 +175,6 @@
 
   .menu-item {
     padding: 18px 20px;
-    border-bottom: 1px solid #f0f0f0;
     font-size: 16px;
     margin: 0;
   }
