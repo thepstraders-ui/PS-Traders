@@ -12,14 +12,13 @@ const Footer = () => {
           <h2 className="footer-logo">PS. TRADERS</h2>
 
           <div className="socials">
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">LinkedIn</a>
+            <a href="https://www.instagram.com/p/DVL2g7dDMfD/">Instagram</a>
+            <a href="https://www.facebook.com/sudeep.patel.5492">Facebook</a>
+          
           </div>
 
-          <p>123-456-7890</p>
-          <p>info@mysite.com</p>
-          <p>500 Terry Francine St. San Francisco, CA 94158</p>
+          <p>+91 95590 67828</p>
+          <p>Papinia ,Mallawan 241303 Hardoi UP</p>
 
         </div>
 
