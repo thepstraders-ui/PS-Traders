@@ -1,175 +1,111 @@
 import React, { useState, useCallback } from "react";
 import "./product.css";
 
+import cpWar18m from "../assets/cp-war18m.jpeg"
+import cpPlusP31q from "../assets/cp-plus-p31q.jpeg"
+import C4kHdmiCable from "../assets/4k-hdmi-cable.jpeg"
+import cpPlus_2_4mp_dome_camera from "../assets/cp-plus-2.4mp-dome-camera.jpeg"
+import cp_plus_2_4mp from "../assets/cp-plus-2.4mp.jpeg"
+import cp_plus_2camera_setup from "../assets/cp-plus-2camera-setup.jpeg"
+import cp_plus_4camera from "../assets/cp-plus-4camera.jpeg"
+import cp_plus_4ch_dvr from "../assets/cp-plus-4ch-dvr.jpeg"
+import cp_plus_8_camera from "../assets/cp-plus-8-camera.jpeg"
+import cp_plus_8ch_dvr from "../assets/cp-plus-8ch-dvr.jpeg"
+import cp_plus_p31q from "../assets/cp-plus-p31q.jpeg"
+import zebronics_k65_keyboard from "../assets/zebronics-k65-keyboard.jpeg"
+
 const productsData = [
   {
     id: 1,
-    name: "iPhone 15",
-    category: "mobile",
-    price: 80000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/q/h/-original-imahgfmzjj8gtqbc.jpeg?q=70",
+    name: "Cp plus 8ch power supply , Warranty 18 months",
+    category: "power",
+    price: 700,
+    img: cpWar18m,
   },
   {
     id: 2,
-    name: "Samsung S23",
-    category: "mobile",
-    price: 70000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70",
+    name: "Cp plus e31Q  wifi camera 3mp Crystal clear view ",
+    category: "camera",
+    price: 2200,
+    img: cpPlusP31q,
   },
   {
     id: 3,
-    name: "MacBook Air",
-    category: "laptop",
-    price: 120000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/v/w/n/-original-imah5uhrz7admz28.jpeg?q=70",
+    name: "Zebronics k65 board ",
+    category: "keyboard",
+    price: 250,
+    img: zebronics_k65_keyboard,
   },
   {
     id: 4,
-    name: "Dell XPS 13",
-    category: "laptop",
+    name: "Cp plus dvr 8ch",
+    category: "dvr",
     price: 100000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/f/u/b/-original-imahf69gy4qegrya.jpeg?q=70",
+    img: cp_plus_8ch_dvr,
   },
   {
     id: 5,
-    name: "Canon EOS",
+    name: "Cp plus 4 camera complete set up One year warranty",
     category: "camera",
-    price: 60000,
-    img: "https://rukminim2.flixcart.com/image/312/312/k3q76a80/camera/k/7/9/sony-apsc-ilce-6600m-b-in5-mirrorless-original-imafm6nvxhybpwhs.jpeg?q=70",
+    price: 11599,
+    img:cp_plus_4camera,
   },
   {
     id: 6,
-    name: "Sony Alpha",
+    name: "Cp plus 2.4 mp bullet camera mic with colour Night vision colour view.",
     category: "camera",
-    price: 90000,
-    img: "https://rukminim2.flixcart.com/image/312/312/kw9krrk0/dslr-camera/6/j/k/-original-imag8z5wzzcgkzva.jpeg?q=70",
+    price: 1550,
+    img: cp_plus_2_4mp,
   },
   {
     id: 7,
-    name: "iPhone 15",
-    category: "mobile",
-    price: 80000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/q/h/-original-imahgfmzjj8gtqbc.jpeg?q=70",
+    name: "Cp plus 2.4 mp dome camera full colour with mic Day and night colour ",
+    category: "camera",
+    price: 1400,
+    img: cpPlus_2_4mp_dome_camera,
   },
   {
     id: 8,
-    name: "Samsung S23",
-    category: "mobile",
-    price: 70000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70",
+    name: "4k HDMI cable 1.5 meter ",
+    category: "cable",
+    price: 299,
+    img: C4kHdmiCable,
   },
   {
     id: 9,
-    name: "MacBook Air",
-    category: "laptop",
-    price: 120000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/v/w/n/-original-imah5uhrz7admz28.jpeg?q=70",
+    name: "Cp plus 4ch dvr ",
+    category: "dvr",
+    price: 2900,
+    img: cp_plus_4ch_dvr,
   },
   {
     id: 10,
-    name: "Dell XPS 13",
-    category: "laptop",
-    price: 100000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/f/u/b/-original-imahf69gy4qegrya.jpeg?q=70",
+    name: "Cp plus 2 camera set up 500 gb hard disk 60 meter wire Bnc connecter 4Dc connecter",
+    category: "camera",
+    price: NaN,
+    img: cp_plus_2camera_setup,
   },
-  {
+   {
     id: 11,
-    name: "Canon EOS",
+    name: "  Cp plus 8 camera complete set up One year warranty",
     category: "camera",
-    price: 60000,
-    img: "https://rukminim2.flixcart.com/image/312/312/k3q76a80/camera/k/7/9/sony-apsc-ilce-6600m-b-in5-mirrorless-original-imafm6nvxhybpwhs.jpeg?q=70",
-  },
-  {
+    price: 20000,
+    img: cp_plus_8_camera,
+  }, {
     id: 12,
-    name: "Sony Alpha",
+    name: "Cp plus e31Q  wifi camera 3mp Crystal clear view ",
     category: "camera",
-    price: 90000,
-    img: "https://rukminim2.flixcart.com/image/312/312/kw9krrk0/dslr-camera/6/j/k/-original-imag8z5wzzcgkzva.jpeg?q=70",
+    price: 2200,
+    img:cpPlusP31q,
   },
-  {
-    id: 13,
-    name: "iPhone 15",
-    category: "mobile",
-    price: 80000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/q/h/-original-imahgfmzjj8gtqbc.jpeg?q=70",
-  },
-  {
-    id: 14,
-    name: "Samsung S23",
-    category: "mobile",
-    price: 70000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70",
-  },
-  {
-    id: 15,
-    name: "MacBook Air",
-    category: "laptop",
-    price: 120000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/v/w/n/-original-imah5uhrz7admz28.jpeg?q=70",
-  },
-  {
-    id: 16,
-    name: "Dell XPS 13",
-    category: "laptop",
-    price: 100000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/f/u/b/-original-imahf69gy4qegrya.jpeg?q=70",
-  },
-  {
-    id: 17,
-    name: "Canon EOS",
-    category: "camera",
-    price: 60000,
-    img: "https://rukminim2.flixcart.com/image/312/312/k3q76a80/camera/k/7/9/sony-apsc-ilce-6600m-b-in5-mirrorless-original-imafm6nvxhybpwhs.jpeg?q=70",
-  },
-  {
-    id: 18,
-    name: "Sony Alpha",
-    category: "camera",
-    price: 90000,
-    img: "https://rukminim2.flixcart.com/image/312/312/kw9krrk0/dslr-camera/6/j/k/-original-imag8z5wzzcgkzva.jpeg?q=70",
-  },
-  {
-    id: 19,
-    name: "iPhone 15",
-    category: "mobile",
-    price: 80000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/q/h/-original-imahgfmzjj8gtqbc.jpeg?q=70",
-  },
-  {
-    id: 20,
-    name: "Samsung S23",
-    category: "mobile",
-    price: 70000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/l/2/-original-imahgfmzvanpgncf.jpeg?q=70",
-  },
-  {
-    id: 21,
-    name: "MacBook Air",
-    category: "laptop",
-    price: 120000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/v/w/n/-original-imah5uhrz7admz28.jpeg?q=70",
-  },
-  {
-    id: 22,
-    name: "Dell XPS 13",
-    category: "laptop",
-    price: 100000,
-    img: "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/f/u/b/-original-imahf69gy4qegrya.jpeg?q=70",
-  },
-  {
-    id: 23,
-    name: "Canon EOS",
-    category: "camera",
-    price: 60000,
-    img: "https://rukminim2.flixcart.com/image/312/312/k3q76a80/camera/k/7/9/sony-apsc-ilce-6600m-b-in5-mirrorless-original-imafm6nvxhybpwhs.jpeg?q=70",
-  },
-  {
-    id: 24,
-    name: "Sony Alpha",
-    category: "camera",
-    price: 90000,
-    img: "https://rukminim2.flixcart.com/image/312/312/kw9krrk0/dslr-camera/6/j/k/-original-imag8z5wzzcgkzva.jpeg?q=70",
-  },
+
+
+
+
+
+
+
+  
 ];
 
 const categories = ["all", "mobile", "laptop", "camera"];
